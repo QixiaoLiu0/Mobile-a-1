@@ -42,11 +42,13 @@ const Comments = () => {
 
       <Text>
         <Text style={{ fontWeight: 700 }}>lil_wyatt838 </Text>
+
         <Text>Awesome tones</Text>
       </Text>
 
       <Text>
         <Text style={{ fontWeight: 700 }}>pia.in.a.pod </Text>
+
         <Text>Gorg. Love it! ❤</Text>
       </Text>
 
