@@ -36,9 +36,10 @@ const Comments = () => {
 
         <Text style = {styles.commonFont}>Fresh shot on a sunny! ☀</Text>
 
-        <Text style = {{color:"#8d8d8d"}}>View all 12 comments</Text>
       </Text>
 
+      <Text style = {{color:"#8d8d8d"}}>View all 12 comments</Text>
+      
       <Text>
         <Text style = {{fontWeight: 700}}>lil_wyatt838</Text>
         <Text>Awesome tones</Text>
