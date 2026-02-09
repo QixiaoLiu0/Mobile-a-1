@@ -5,53 +5,52 @@ import { StyleSheet, Text, View } from "react-native";
 const Comments = () => {
   return (
     <View style={styles.container}>
-      <View style={{flexDirection:"row"}}>
-        <View style={{flexDirection:"row"}}>
+      <View style={{ flexDirection: "row" }}>
+        <View style={{ flexDirection: "row" }}>
           <Avatar
-          uri ="https://i.pravatar.cc/150?img=3"
-          width = {20}
-          style = {{zIndex:3}}>
-          </Avatar>
+            uri="https://i.pravatar.cc/150?img=3"
+            width={20}
+            style={{ zIndex: 3 }}
+          ></Avatar>
           <Avatar
-          uri = "https://i.pravatar.cc/150?img=4"
-          width = {20}
-          style = {{zIndex: 2, marginLeft: -4}}>
-          </Avatar>
-          <Avatar 
-          uri = "https://i.pravatar.cc/150?img=5"
-          width={20}
-          style= {{zIndex: 1, marginLeft: -4, marginRight: 10}}>
-          </Avatar>
+            uri="https://i.pravatar.cc/150?img=4"
+            width={20}
+            style={{ zIndex: 2, marginLeft: -4 }}
+          ></Avatar>
+          <Avatar
+            uri="https://i.pravatar.cc/150?img=5"
+            width={20}
+            style={{ zIndex: 1, marginLeft: -4, marginRight: 10 }}
+          ></Avatar>
         </View>
-        <Text style = {styles.commonFont}>
-          <Text>Liked by</Text>
-          <Text style = {{fontWeight: 700}}>paisley.print.48</Text>
-          <Text>and</Text>
-          <Text style = {{fontWeight: 700}}>7 others</Text>
+        <Text style={styles.commonFont}>
+          <Text>Liked by </Text>
+          <Text style={{ fontWeight: 700 }}>paisley.print.48</Text>
+          <Text> and </Text>
+          <Text style={{ fontWeight: 700 }}>7 others</Text>
         </Text>
       </View>
       <Text>
+        <Text style={[styles.commonFont, { fontWeight: 700 }]}>
+          frenchie_fry39{" "}
+        </Text>
 
-        <Text style = {[styles.commonFont, { fontWeight: 700}]}>frenchie_fry39{" "}</Text>
-
-        <Text style = {styles.commonFont}>Fresh shot on a sunny! ☀</Text>
-
+        <Text style={styles.commonFont}>Fresh shot on a sunny! ☀</Text>
       </Text>
 
-      <Text style = {{color:"#8d8d8d"}}>View all 12 comments</Text>
-      
+      <Text style={{ color: "#8d8d8d" }}>View all 12 comments</Text>
+
       <Text>
-        <Text style = {{fontWeight: 700}}>lil_wyatt838</Text>
+        <Text style={{ fontWeight: 700 }}>lil_wyatt838 </Text>
         <Text>Awesome tones</Text>
       </Text>
 
       <Text>
-        <Text style = {{fontWeight: 700}}>pia.in.a.pod</Text>
+        <Text style={{ fontWeight: 700 }}>pia.in.a.pod </Text>
         <Text>Gorg. Love it! ❤</Text>
       </Text>
 
-      <Text style = {{color: "#8d8d8d"}}>1 day ago        
-      </Text>
+      <Text style={{ color: "#8d8d8d" }}>1 day ago</Text>
     </View>
   );
 };
@@ -60,12 +59,12 @@ export default Comments;
 
 const styles = StyleSheet.create({
   container: {
-    paddingLeft:10,
-    paddingRight:10,
-    gap:8,
+    paddingLeft: 10,
+    paddingRight: 10,
+    gap: 8,
   },
 
   commonFont: {
-    fontSize:16,
+    fontSize: 16,
   },
 });
