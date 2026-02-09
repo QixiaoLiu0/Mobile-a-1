@@ -1,12 +1,12 @@
 import Avatar from "@/app/components/Avatar";
 import React from "react";
-import { StyleSheet, Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 const Comments = () => {
   return (
-    <view style={styles.container}>
-      <view style={{flexDirection:"row"}}>
-        <view style={{flexDirection:"row"}}>
+    <View style={styles.container}>
+      <View style={{flexDirection:"row"}}>
+        <View style={{flexDirection:"row"}}>
           <Avatar
           uri ="https://i.pravatar.cc/150?img=3"
           width = {20}
@@ -15,21 +15,21 @@ const Comments = () => {
           <Avatar
           uri = "https://i.pravatar.cc/150?img=4"
           width = {20}
-          style = {{zIndex: 1, marginLeft: -4}}>
+          style = {{zIndex: 2, marginLeft: -4}}>
           </Avatar>
           <Avatar 
           uri = "https://i.pravatar.cc/150?img=5"
           width={20}
-          style= {{zIndex:1, marginLeft: -4, marginRight:10}}>
+          style= {{zIndex: 1, marginLeft: -4, marginRight: 10}}>
           </Avatar>
-        </view>
+        </View>
         <Text style = {styles.commonFont}>
           <Text>Liked by</Text>
           <Text style = {{fontWeight: 700}}>paisley.print.48</Text>
           <Text>and</Text>
           <Text style = {{fontWeight: 700}}>7 others</Text>
         </Text>
-      </view>
+      </View>
       <Text>
 
         <Text style = {[styles.commonFont, { fontWeight: 700}]}>frenchie_fry39{" "}</Text>
@@ -51,7 +51,7 @@ const Comments = () => {
 
       <Text style = {{color: "#8d8d8d"}}>1 day ago        
       </Text>
-    </view>
+    </View>
   );
 };
 
