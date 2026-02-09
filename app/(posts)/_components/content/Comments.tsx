@@ -39,14 +39,14 @@ const Comments = () => {
       </Text>
 
       <Text style = {{color:"#8d8d8d"}}>View all 12 comments</Text>
-      
+
       <Text>
-        <Text style = {{fontWeight: 700}}>lil_wyatt838</Text>
+        <Text style = {{fontWeight: 700}}>lil_wyatt838 </Text>
         <Text>Awesome tones</Text>
       </Text>
 
       <Text>
-        <Text style = {{fontWeight: 700}}>pia.in.a.pod</Text>
+        <Text style = {{fontWeight: 700}}>pia.in.a.pod </Text>
         <Text>Gorg. Love it! ❤</Text>
       </Text>
 
